@@ -2,10 +2,10 @@ const express = require("express");
 // const bodyParser = require('body-parser');
 // const cors = require('cors');
 const { Client } = require("pg");
+const { dburl } = require("./config");
 
 const client = new Client({
-  connectionString:
-    "postgres://hsahkdaw:JWgvRmKRS-qp_7KERaEHF03KZs2b6Lj5@lallah.db.elephantsql.com:5432/hsahkdaw",
+  connectionString: dburl,
 });
 
 const port = process.env.PORT || 6000;
