@@ -1,0 +1,14 @@
+bin
+include
+lib
+lib64
+share
+pyvenv.cfg
+
+faviconvenv
+
+__pycache__/
+
+favicons
+unknownFaviconsq
+unknownFavicons
